@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registracijaLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".RegistracijaActivity">
+
+    <EditText
+        android:id="@+id/registracijaIme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Unesite ime"
+        android:inputType="textPersonName"
+        android:textColor="#FFFEFE"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/registracijaPrezime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Unesite prezime"
+        android:inputType="textPersonName"
+        android:textColor="#FFFEFE"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/registracijaAdresa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Unesite adresu"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/registracijaEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Unesite email"
+        android:inputType="textPersonName"
+        android:textColor="#FFFEFE"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/registracijaKorisnickoIme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Unesite korisnicko ime"
+        android:inputType="textPersonName"
+        android:textColor="#FDFCFC"
+        android:textColorHint="#FDFDFD"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/registracijaLozinka"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Unesite lozinku"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dugmeOdustani"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="30dp"
+            android:background="#B560A5CC"
+            android:text="Odustani"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/dugmeRegistrujSe"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="35dp"
+            android:background="#B560A5CC"
+            android:padding="2dp"
+            android:text="Registruj se"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>
